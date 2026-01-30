@@ -1,8 +1,7 @@
 export default function Home() {
   return (
-    <main style={{ padding: 40, fontFamily: "system-ui" }}>
-      <h1>Hello Vercel 👋</h1>
-      <p>My first deployed page.</p>
+    <main className="min-h-screen flex items-center justify-center bg-slate-900">
+      <h1 className="text-4xl font-bold text-white">Tailwind is working 🚀</h1>
     </main>
   );
 }
